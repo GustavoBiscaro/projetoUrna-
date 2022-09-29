@@ -5,12 +5,14 @@
     align-items: center;
 }
 
-body>div>div{
-
+.tela-teclado {
+    max-width: 30%;
+    max-height: 30%;
+    background-color: #fff;
 }
 
 body>div>div>div{
-    margin: 20px;
+    margin: 30px;
     background-color: gray;
 }
 
@@ -24,7 +26,14 @@ body>div>div>div{
 }
 
 .tela{
-    width: 60%;
+    height: 400px;
+    width: 70%;
+    background-color: rgb(215, 215, 215);
+}
+.leitor {
+    padding: 10px;
+    margin: 35px;
+    background-color: #fff;
 }
 
 .teclado{

@@ -12,10 +12,14 @@
     <div class="base">
         <div class="urna">
             <div class="tela">
-                <div class="leitor">
-                    leitor
+                <div id="leitor">
+                
+                </div>
+                <div id="tela-candidato">
+                   
                 </div>
             </div>
+           
             <div class="teclado">
                 <div class="titulo">
                     <img src="./img/logo.jpeg" id="logo" alt="Logo da urna">
@@ -79,12 +83,12 @@
                                 BRANCO
                             </span>
                         </div>
-                        <div id="corrige" class="botao-corrige">
+                        <div id="corrige" class="botao-corrige" onclick="corrige()">
                             <span>
                                 CORRIGE
                             </span>
                         </div>
-                        <div id="confirma" class="botao-confirma" action="function()">
+                        <div id="confirma" class="botao-confirma" onclick="resultadoFinal()">
                             <span>
                                 CONFIRMA
                             </span>

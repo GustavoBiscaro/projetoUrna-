@@ -17,6 +17,8 @@ function corrige() {
     document.getElementById('leitor').innerHTML = "";
 }
 
-function resultadoFinal(nome, numeroEleitoral, partido) {
-
+function resultadoFinal() {
+    for (let key in candidatos){
+        console.log(key,candidatos[key]);
+    }
 }

@@ -19,5 +19,5 @@ function corrige() {
 }
 
 function resultadoFinal(numeroEleitoral) {
-    console.log(numeroEscolhido);
+    document.getElementById('tela-candidato').innerHTML = numeroEscolhido;
 }

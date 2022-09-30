@@ -10,15 +10,14 @@ const candidatos = [
 
 function insert(num) {
     var number = document.getElementById('leitor').innerHTML;
-    document.getElementById('leitor').innerHTML = number + num;
+    numeroEscolhido = number + num;
+    document.getElementById('leitor').innerHTML = numeroEscolhido;
 }
 
 function corrige() {
     document.getElementById('leitor').innerHTML = "";
 }
 
-function resultadoFinal() {
-    for (let key in candidatos){
-        console.log(key,candidatos[key]);
-    }
+function resultadoFinal(numeroEleitoral) {
+    console.log(numeroEscolhido);
 }

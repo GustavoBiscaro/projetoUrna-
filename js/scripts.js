@@ -16,8 +16,14 @@ function insert(num) {
 
 function corrige() {
     document.getElementById('leitor').innerHTML = "";
+    document.getElementById('tela-candidato').innerHTML = "";
 }
 
-function resultadoFinal(numeroEleitoral) {
-    document.getElementById('tela-candidato').innerHTML = numeroEscolhido;
+function resultadoFinal() {
+
 }
+
+    
+
+
+    
